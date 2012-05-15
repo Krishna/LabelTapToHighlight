@@ -15,13 +15,9 @@
 		D744344A156090D800008628 /* LCYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7443449156090D800008628 /* LCYAppDelegate.m */; };
 		D744344D156090D800008628 /* LCYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D744344C156090D800008628 /* LCYViewController.m */; };
 		D7443450156090D800008628 /* LCYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744344E156090D800008628 /* LCYViewController.xib */; };
-		D75850101562C57E00D4F081 /* KNBuildLensFlare_Fuzzy_White.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500B1562C57E00D4F081 /* KNBuildLensFlare_Fuzzy_White.png */; };
-		D75850121562C57E00D4F081 /* TSA_ButtonBarPressedIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500D1562C57E00D4F081 /* TSA_ButtonBarPressedIndicator.png */; };
-		D75850131562C57E00D4F081 /* TSD_sound_object_pressed_glow@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500E1562C57E00D4F081 /* TSD_sound_object_pressed_glow@2x~iphone.png */; };
-		D75850141562C57E00D4F081 /* TSD_sound_object_pressed_glow~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500F1562C57E00D4F081 /* TSD_sound_object_pressed_glow~iphone.png */; };
+		D75850131562C57E00D4F081 /* glow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500E1562C57E00D4F081 /* glow@2x.png */; };
+		D75850141562C57E00D4F081 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = D758500F1562C57E00D4F081 /* glow.png */; };
 		D7C6E64815614F7C00E5F034 /* LCYLabelThatHighlights.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C6E64715614F7C00E5F034 /* LCYLabelThatHighlights.m */; };
-		D7C6E64C15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */; };
-		D7C6E64D15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +34,10 @@
 		D744344B156090D800008628 /* LCYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYViewController.h; sourceTree = "<group>"; };
 		D744344C156090D800008628 /* LCYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYViewController.m; sourceTree = "<group>"; };
 		D744344F156090D800008628 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCYViewController.xib; sourceTree = "<group>"; };
-		D758500B1562C57E00D4F081 /* KNBuildLensFlare_Fuzzy_White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KNBuildLensFlare_Fuzzy_White.png; sourceTree = "<group>"; };
-		D758500D1562C57E00D4F081 /* TSA_ButtonBarPressedIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSA_ButtonBarPressedIndicator.png; sourceTree = "<group>"; };
-		D758500E1562C57E00D4F081 /* TSD_sound_object_pressed_glow@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TSD_sound_object_pressed_glow@2x~iphone.png"; sourceTree = "<group>"; };
-		D758500F1562C57E00D4F081 /* TSD_sound_object_pressed_glow~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TSD_sound_object_pressed_glow~iphone.png"; sourceTree = "<group>"; };
+		D758500E1562C57E00D4F081 /* glow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow@2x.png"; sourceTree = "<group>"; };
+		D758500F1562C57E00D4F081 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
 		D7C6E64615614F7C00E5F034 /* LCYLabelThatHighlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYLabelThatHighlights.h; sourceTree = "<group>"; };
 		D7C6E64715614F7C00E5F034 /* LCYLabelThatHighlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYLabelThatHighlights.m; sourceTree = "<group>"; };
-		D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OUIToolbarButtonFauxHighlight.png; sourceTree = "<group>"; };
-		D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OUIToolbarButtonFauxHighlight@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,12 +127,8 @@
 		D7C6E64915615CD200E5F034 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D758500B1562C57E00D4F081 /* KNBuildLensFlare_Fuzzy_White.png */,
-				D758500D1562C57E00D4F081 /* TSA_ButtonBarPressedIndicator.png */,
-				D758500F1562C57E00D4F081 /* TSD_sound_object_pressed_glow~iphone.png */,
-				D758500E1562C57E00D4F081 /* TSD_sound_object_pressed_glow@2x~iphone.png */,
-				D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */,
-				D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */,
+				D758500F1562C57E00D4F081 /* glow.png */,
+				D758500E1562C57E00D4F081 /* glow@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -199,12 +187,8 @@
 			files = (
 				D7443444156090D800008628 /* InfoPlist.strings in Resources */,
 				D7443450156090D800008628 /* LCYViewController.xib in Resources */,
-				D7C6E64C15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png in Resources */,
-				D7C6E64D15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png in Resources */,
-				D75850101562C57E00D4F081 /* KNBuildLensFlare_Fuzzy_White.png in Resources */,
-				D75850121562C57E00D4F081 /* TSA_ButtonBarPressedIndicator.png in Resources */,
-				D75850131562C57E00D4F081 /* TSD_sound_object_pressed_glow@2x~iphone.png in Resources */,
-				D75850141562C57E00D4F081 /* TSD_sound_object_pressed_glow~iphone.png in Resources */,
+				D75850131562C57E00D4F081 /* glow@2x.png in Resources */,
+				D75850141562C57E00D4F081 /* glow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

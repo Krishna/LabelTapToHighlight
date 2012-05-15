@@ -21,7 +21,7 @@
 
 @implementation LCYLabelThatHighlights
 
-static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
+static NSString *HIGHLIGHT_IMAGE_NAME = @"glow.png";
 
 @synthesize highlightView = _highlightView;
 @synthesize target = _target;
