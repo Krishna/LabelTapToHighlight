@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D744343A156090D800008628 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7443439156090D800008628 /* UIKit.framework */; };
+		D744343C156090D800008628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D744343B156090D800008628 /* Foundation.framework */; };
+		D744343E156090D800008628 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D744343D156090D800008628 /* CoreGraphics.framework */; };
+		D7443444156090D800008628 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7443442156090D800008628 /* InfoPlist.strings */; };
+		D7443446156090D800008628 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7443445156090D800008628 /* main.m */; };
+		D744344A156090D800008628 /* LCYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7443449156090D800008628 /* LCYAppDelegate.m */; };
+		D744344D156090D800008628 /* LCYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D744344C156090D800008628 /* LCYViewController.m */; };
+		D7443450156090D800008628 /* LCYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744344E156090D800008628 /* LCYViewController.xib */; };
+		D7C6E64815614F7C00E5F034 /* LCYLabelThaHighlights.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */; };
+		D7C6E64C15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */; };
+		D7C6E64D15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7443435156090D800008628 /* LabelTapToHighlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelTapToHighlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7443439156090D800008628 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D744343B156090D800008628 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D744343D156090D800008628 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7443441156090D800008628 /* LabelTapToHighlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabelTapToHighlight-Info.plist"; sourceTree = "<group>"; };
+		D7443443156090D800008628 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7443445156090D800008628 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7443447156090D800008628 /* LabelTapToHighlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabelTapToHighlight-Prefix.pch"; sourceTree = "<group>"; };
+		D7443448156090D800008628 /* LCYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYAppDelegate.h; sourceTree = "<group>"; };
+		D7443449156090D800008628 /* LCYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYAppDelegate.m; sourceTree = "<group>"; };
+		D744344B156090D800008628 /* LCYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYViewController.h; sourceTree = "<group>"; };
+		D744344C156090D800008628 /* LCYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYViewController.m; sourceTree = "<group>"; };
+		D744344F156090D800008628 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCYViewController.xib; sourceTree = "<group>"; };
+		D7C6E64615614F7C00E5F034 /* LCYLabelThaHighlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYLabelThaHighlights.h; sourceTree = "<group>"; };
+		D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYLabelThaHighlights.m; sourceTree = "<group>"; };
+		D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OUIToolbarButtonFauxHighlight.png; sourceTree = "<group>"; };
+		D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OUIToolbarButtonFauxHighlight@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7443432156090D800008628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D744343A156090D800008628 /* UIKit.framework in Frameworks */,
+				D744343C156090D800008628 /* Foundation.framework in Frameworks */,
+				D744343E156090D800008628 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D744342A156090D800008628 = {
+			isa = PBXGroup;
+			children = (
+				D744343F156090D800008628 /* LabelTapToHighlight */,
+				D7443438156090D800008628 /* Frameworks */,
+				D7443436156090D800008628 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7443436156090D800008628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7443435156090D800008628 /* LabelTapToHighlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7443438156090D800008628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7443439156090D800008628 /* UIKit.framework */,
+				D744343B156090D800008628 /* Foundation.framework */,
+				D744343D156090D800008628 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D744343F156090D800008628 /* LabelTapToHighlight */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6E64315614F4B00E5F034 /* App Delegate */,
+				D7C6E64515614F5600E5F034 /* View Controllers */,
+				D7443440156090D800008628 /* Supporting Files */,
+				D7C6E64615614F7C00E5F034 /* LCYLabelThaHighlights.h */,
+				D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */,
+			);
+			path = LabelTapToHighlight;
+			sourceTree = "<group>";
+		};
+		D7443440156090D800008628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6E64915615CD200E5F034 /* Images */,
+				D7443441156090D800008628 /* LabelTapToHighlight-Info.plist */,
+				D7443442156090D800008628 /* InfoPlist.strings */,
+				D7443445156090D800008628 /* main.m */,
+				D7443447156090D800008628 /* LabelTapToHighlight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7C6E64315614F4B00E5F034 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D7443448156090D800008628 /* LCYAppDelegate.h */,
+				D7443449156090D800008628 /* LCYAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		D7C6E64515614F5600E5F034 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D744344B156090D800008628 /* LCYViewController.h */,
+				D744344C156090D800008628 /* LCYViewController.m */,
+				D744344E156090D800008628 /* LCYViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D7C6E64915615CD200E5F034 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */,
+				D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7443434156090D800008628 /* LabelTapToHighlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7443453156090D800008628 /* Build configuration list for PBXNativeTarget "LabelTapToHighlight" */;
+			buildPhases = (
+				D7443431156090D800008628 /* Sources */,
+				D7443432156090D800008628 /* Frameworks */,
+				D7443433156090D800008628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelTapToHighlight;
+			productName = LabelTapToHighlight;
+			productReference = D7443435156090D800008628 /* LabelTapToHighlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D744342C156090D800008628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCY;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Logic Colony Ltd";
+			};
+			buildConfigurationList = D744342F156090D800008628 /* Build configuration list for PBXProject "LabelTapToHighlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D744342A156090D800008628;
+			productRefGroup = D7443436156090D800008628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7443434156090D800008628 /* LabelTapToHighlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7443433156090D800008628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7443444156090D800008628 /* InfoPlist.strings in Resources */,
+				D7443450156090D800008628 /* LCYViewController.xib in Resources */,
+				D7C6E64C15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png in Resources */,
+				D7C6E64D15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7443431156090D800008628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7443446156090D800008628 /* main.m in Sources */,
+				D744344A156090D800008628 /* LCYAppDelegate.m in Sources */,
+				D744344D156090D800008628 /* LCYViewController.m in Sources */,
+				D7C6E64815614F7C00E5F034 /* LCYLabelThaHighlights.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7443442156090D800008628 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7443443156090D800008628 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D744344E156090D800008628 /* LCYViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D744344F156090D800008628 /* en */,
+			);
+			name = LCYViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7443451156090D800008628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D7443452156090D800008628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7443454156090D800008628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabelTapToHighlight/LabelTapToHighlight-Prefix.pch";
+				INFOPLIST_FILE = "LabelTapToHighlight/LabelTapToHighlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7443455156090D800008628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabelTapToHighlight/LabelTapToHighlight-Prefix.pch";
+				INFOPLIST_FILE = "LabelTapToHighlight/LabelTapToHighlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D744342F156090D800008628 /* Build configuration list for PBXProject "LabelTapToHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7443451156090D800008628 /* Debug */,
+				D7443452156090D800008628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7443453156090D800008628 /* Build configuration list for PBXNativeTarget "LabelTapToHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7443454156090D800008628 /* Debug */,
+				D7443455156090D800008628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D744342C156090D800008628 /* Project object */;
+}
