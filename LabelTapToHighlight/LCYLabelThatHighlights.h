@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LCYLabelThaHighlights : UILabel
+@interface LCYLabelThatHighlights : UILabel
 
 - (id) initWithFrame: (CGRect) frame;
 - (id) initWithCoder: (NSCoder *) decoder;

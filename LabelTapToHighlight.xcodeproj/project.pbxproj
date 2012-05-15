@@ -15,7 +15,7 @@
 		D744344A156090D800008628 /* LCYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7443449156090D800008628 /* LCYAppDelegate.m */; };
 		D744344D156090D800008628 /* LCYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D744344C156090D800008628 /* LCYViewController.m */; };
 		D7443450156090D800008628 /* LCYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744344E156090D800008628 /* LCYViewController.xib */; };
-		D7C6E64815614F7C00E5F034 /* LCYLabelThaHighlights.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */; };
+		D7C6E64815614F7C00E5F034 /* LCYLabelThatHighlights.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C6E64715614F7C00E5F034 /* LCYLabelThatHighlights.m */; };
 		D7C6E64C15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */; };
 		D7C6E64D15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */; };
 /* End PBXBuildFile section */
@@ -34,8 +34,8 @@
 		D744344B156090D800008628 /* LCYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYViewController.h; sourceTree = "<group>"; };
 		D744344C156090D800008628 /* LCYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYViewController.m; sourceTree = "<group>"; };
 		D744344F156090D800008628 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCYViewController.xib; sourceTree = "<group>"; };
-		D7C6E64615614F7C00E5F034 /* LCYLabelThaHighlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYLabelThaHighlights.h; sourceTree = "<group>"; };
-		D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYLabelThaHighlights.m; sourceTree = "<group>"; };
+		D7C6E64615614F7C00E5F034 /* LCYLabelThatHighlights.h */ = {isa = PBXFileReference; fileEncoding = 4; path = LCYLabelThatHighlights.h; sourceTree = "<group>"; };
+		D7C6E64715614F7C00E5F034 /* LCYLabelThatHighlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYLabelThatHighlights.m; sourceTree = "<group>"; };
 		D7C6E64A15615CE600E5F034 /* OUIToolbarButtonFauxHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OUIToolbarButtonFauxHighlight.png; sourceTree = "<group>"; };
 		D7C6E64B15615CE600E5F034 /* OUIToolbarButtonFauxHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OUIToolbarButtonFauxHighlight@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +87,8 @@
 				D7C6E64315614F4B00E5F034 /* App Delegate */,
 				D7C6E64515614F5600E5F034 /* View Controllers */,
 				D7443440156090D800008628 /* Supporting Files */,
-				D7C6E64615614F7C00E5F034 /* LCYLabelThaHighlights.h */,
-				D7C6E64715614F7C00E5F034 /* LCYLabelThaHighlights.m */,
+				D7C6E64615614F7C00E5F034 /* LCYLabelThatHighlights.h */,
+				D7C6E64715614F7C00E5F034 /* LCYLabelThatHighlights.m */,
 			);
 			path = LabelTapToHighlight;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				D7443446156090D800008628 /* main.m in Sources */,
 				D744344A156090D800008628 /* LCYAppDelegate.m in Sources */,
 				D744344D156090D800008628 /* LCYViewController.m in Sources */,
-				D7C6E64815614F7C00E5F034 /* LCYLabelThaHighlights.m in Sources */,
+				D7C6E64815614F7C00E5F034 /* LCYLabelThatHighlights.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

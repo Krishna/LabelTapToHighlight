@@ -7,7 +7,7 @@
 //
 
 #import "LCYViewController.h"
-#import "LCYLabelThaHighlights.h"
+#import "LCYLabelThatHighlights.h"
 
 @interface LCYViewController ()
 
@@ -39,7 +39,7 @@
 
 - (void) viewDidAppear: (BOOL) animated;
 {
-    LCYLabelThaHighlights *highlightingLabel = ((LCYLabelThaHighlights *) _highlightingLabel);
+    LCYLabelThatHighlights *highlightingLabel = ((LCYLabelThatHighlights *) _highlightingLabel);
     [highlightingLabel setTarget:self action:@selector(labelWasTapped:)];
 }
 

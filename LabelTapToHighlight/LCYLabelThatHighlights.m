@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Logic Colony Ltd. All rights reserved.
 //
 
-#import "LCYLabelThaHighlights.h"
+#import "LCYLabelThatHighlights.h"
 
-@interface LCYLabelThaHighlights()
+@interface LCYLabelThatHighlights()
 
 - (void) commonInitialization;
 
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation LCYLabelThaHighlights
+@implementation LCYLabelThatHighlights
 
 static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
 
