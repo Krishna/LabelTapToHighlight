@@ -39,8 +39,7 @@
 
 - (void) viewDidAppear: (BOOL) animated;
 {
-    LCYLabelThatHighlights *highlightingLabel = ((LCYLabelThatHighlights *) _highlightingLabel);
-    [highlightingLabel setTarget:self action:@selector(labelWasTapped:)];
+    [self.highlightingLabel setTarget:self action:@selector(labelWasTapped:)];
 }
 
 - (void) viewDidUnload;

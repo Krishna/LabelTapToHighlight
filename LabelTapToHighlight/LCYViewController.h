@@ -13,7 +13,7 @@
 @interface LCYViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *label;
-@property (nonatomic, strong) IBOutlet UILabel *highlightingLabel;
+@property (nonatomic, strong) IBOutlet LCYLabelThatHighlights *highlightingLabel;
 
 - (IBAction) labelWasTapped : (id) sender;
 
