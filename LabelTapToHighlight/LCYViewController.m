@@ -25,12 +25,6 @@
     [super dealloc];
 }
 
-- (void) awakeFromNib;
-{
-//    [super awakeFromNib];
-//    [self.highlightingLabel setTarget:self action:@selector(labelWasTapped:)];
-}
-
 - (void) viewDidLoad;
 {
     [super viewDidLoad];
