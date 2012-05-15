@@ -11,9 +11,9 @@
 @interface LCYLabelThatHighlights()
 
 - (void) commonInitialization;
+- (void) animateHighlightFadingOut;
 
 @property (nonatomic, readonly, retain) UIImageView *highlightView;
-@property (nonatomic, retain) UITapGestureRecognizer *tapRecognizer;
 @property (nonatomic, assign) SEL action;
 @property (nonatomic, assign) id  target;
 
@@ -24,7 +24,6 @@
 static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
 
 @synthesize highlightView = _highlightView;
-@synthesize tapRecognizer = _tapRecognizer;
 @synthesize target = _target;
 @synthesize action = _action;
 
@@ -33,7 +32,6 @@ static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
     _target = nil;
     _action = nil;
     [_highlightView release]; _highlightView = nil;
-    [_tapRecognizer release]; _tapRecognizer = nil;
     [super dealloc];
 }
 
@@ -63,15 +61,11 @@ static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
 {
     self.userInteractionEnabled = YES;
     self.clipsToBounds = NO;
-    _tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap:)];
-    [self addGestureRecognizer:_tapRecognizer];
 }
 
-- (void) labelTap: (UIGestureRecognizer *) gr;
-{ 
-    self.highlightView.hidden = NO;
-
-    [UIView animateWithDuration:0.5f
+- (void) animateHighlightFadingOut;
+{
+    [UIView animateWithDuration:0.25f
                      animations:^{
                          self.highlightView.alpha = 0.0f;
                      }
@@ -80,6 +74,23 @@ static NSString *HIGHLIGHT_IMAGE_NAME = @"OUIToolbarButtonFauxHighlight.png";
                          self.highlightView.alpha = 1.0;
                          [self.target performSelector:self.action withObject:self];
                      }];
+}
+
+#pragma mark - Touch Handling
+
+- (void) touchesBegan: (NSSet *) touches withEvent: (UIEvent *) event;
+{
+    self.highlightView.hidden = NO;        
+}
+
+- (void) touchesEnded: (NSSet *) touches withEvent: (UIEvent *) event;
+{
+    [self animateHighlightFadingOut];
+}
+
+- (void) touchesCancelled: (NSSet *) touches withEvent: (UIEvent *) event;
+{
+    [self animateHighlightFadingOut];
 }
 
 #pragma mark - Public API...
